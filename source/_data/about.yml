@@ -1,0 +1,108 @@
+- class_name: 关于页
+  subtitle: 我欲乘风归去，又恐Ciallo～(∠・ω< )⌒★玉宇✨
+  avatarImg: /img/congyu.png
+  avatarSkills:
+    left:
+        - 💫 操作天花板的邻居
+        - 🎁 喜加一爱好者
+        - 🎮 峡谷常驻人口
+        - 🎯 又菜又爱玩代表 
+    right:
+        - 鲍勃的干爹 😋
+        - 发牌员针对我 😭
+        - 人狠分不多话少 🃏
+        - 这把不死吃了 😡
+  name: 思维尺
+  description: 是一名 前端工程师、学生
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: 欢迎老大喵
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: REST,通信工程专业
+        color: "#357ef5"
+      - desc: REST,通信工程专业
+        color: "#357ef5"
+      - desc: REST,通信工程专业
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，北京市
+    background: https://pic1.imgdb.cn/item/691d92213203f7be00180347.jpg
+    backgroundDark: https://pic1.imgdb.cn/item/691d92213203f7be00180347.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2005
+    selfInfoTips2: 一所大专
+    selfInfoContent2: 通信工程
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 大三学生👨‍🎓
+  personalities:
+    author_name: 药水姐
+    personality_type: INTP-A
+    photo_url: https://pic1.imgdb.cn/item/69154d4b3203f7be00fbaef7.jpg
+    personality_img: https://pic1.imgdb.cn/item/6915512d3203f7be00fbf05b.png
+    name_url: https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 人生一波三折，
+    maxim_bottom: 好便宜。
+  buff:
+    buff_tips: 特长
+    buff_top: 脑回路新奇的 酸菜鱼
+    buff_bottom: 成分复杂
+  game:
+    game_tips: 爱好游戏
+    game_title: 炉石
+    game_uid: "嘿朋友，准备来一局吗"
+    game_bg: https://pic1.imgdb.cn/item/6916a6bf3203f7be0002bf06.jpg
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 紫罗兰永恒花园
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://pic1.imgdb.cn/item/6916a4893203f7be0002a81e.jpg
+      - name: 间谍过家家
+        href: https://www.bilibili.com/bangumi/media/md28237119
+        cover: https://pic1.imgdb.cn/item/6916a5173203f7be0002aed9.jpg
+      - name: 欢迎来到实力至上主义的教室
+        href: https://www.bilibili.com/bangumi/media/md6339
+        cover: https://pic1.imgdb.cn/item/6916a5d53203f7be0002b6d4.jpg
+      - name: MyGO
+        href: https://www.bilibili.com/bangumi/media/md23679123
+        cover: https://pic1.imgdb.cn/item/6916a6003203f7be0002b83c.jpg
+      - name: Ave Mujika
+        href: https://www.bilibili.com/bangumi/media/md23679586
+        cover: https://pic1.imgdb.cn/item/6916a6233203f7be0002b9a3.jpg
+
+        
+        
+  like:
+    like_tips: 关注偏好
+    like_title: Steam游戏
+    like_bg: https://pic1.imgdb.cn/item/6916c7663203f7be00035560.jpg
+    like_bottom: 卡牌游戏，RPG游戏，恐怖游戏
+  music:
+    music_tips: 音乐偏好
+    music_title: 陶吉吉，民谣，欧美流行曲
+    music_bg: https://pic1.imgdb.cn/item/69157c233203f7be00fe1640.webp
+    music_link:  /music/?id=9612066653&server=tencent 

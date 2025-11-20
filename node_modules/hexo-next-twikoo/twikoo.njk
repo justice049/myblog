@@ -1,0 +1,9 @@
+<script>
+NexT.utils.loadComments('#twikoo-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js', () => {
+    twikoo.init(Object.assign({{ config.twikoo | safedump }}, {
+      el: '#twikoo-comments'
+    }));
+  }, window.twikoo);
+});
+</script>

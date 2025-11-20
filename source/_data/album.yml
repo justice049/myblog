@@ -1,0 +1,760 @@
+
+
+- class_name: 世界各地夕阳与风景
+  path_name: /wordScenery
+  type: 2
+  description: 此处风景，不如同去。🌇
+  cover: https://pic1.imgdb.cn/item/691596213203f7be00fee5d9.jpg
+  top_background: https://pic1.imgdb.cn/item/691690073203f7be0001f7d0.jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2022/10/26 01:00:00
+      content: 鼓楼的车水马龙
+      address: 北京鼓楼
+      image:
+        - https://pic1.imgdb.cn/item/69154d773203f7be00fbb10e.jpg
+
+    - date: 2022-10-25
+      content: 北平的秋
+      address: 北京王府井
+      image:
+        - https://pic1.imgdb.cn/item/69154cf33203f7be00fbac4d.jpg
+
+    - date: 2022-10-25
+      content: 鼓楼旁边的不知道什么路。
+      address: 北京鼓楼旁
+      image:
+        - https://pic1.imgdb.cn/item/69154d4b3203f7be00fbaef7.jpg
+
+
+
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://pic1.imgdb.cn/item/6915bca33203f7be00ffd4fe.jpg
+  cover: https://pic1.imgdb.cn/item/691596303203f7be00fee658.jpg
+  album_list:
+    - date: 2022-10-24
+      content: 第一次打炉石的比赛
+      image:
+        - https://pic1.imgdb.cn/item/691573cf3203f7be00fdae98.jpg
+    - date: 2022-10-24
+      content: 一个让人感觉幸福感很高的照片
+      image:
+        - https://pic1.imgdb.cn/item/691573063203f7be00fda74d.jpg
+    - date: 2022-10-24
+      content: 费劲千辛万苦爬六楼搬上来的西瓜是芭乐
+      image:
+        - https://pic1.imgdb.cn/item/69156f953203f7be00fd6ec6.jpg
+    - date: 2022-10-24
+      content: 被蚊子咬成这样还要继续写代码。
+      image:
+        - https://pic1.imgdb.cn/item/69156f863203f7be00fd6e2f.jpg
+    - date: 2022-10-24
+      content: 和然然子一起去做的陶瓷
+      image:
+        - https://pic1.imgdb.cn/item/69156f7a3203f7be00fd6dac.jpg
+    - date: 2022-10-24
+      content: 小天地的乖顺哈吉米
+      image:
+        - https://pic1.imgdb.cn/item/69156e593203f7be00fd6109.jpg
+    - date: 2022-10-24
+      content: 跟荷叶饭的表情包聊天记录
+      image:
+        - https://pic1.imgdb.cn/item/69156e473203f7be00fd603e.jpg
+    - date: 2022-10-24
+      content: minisoland之旅撞车赵露思线下活动，人多的钥匙自此便成赵露思黑粉
+      image:
+        - https://pic1.imgdb.cn/item/69156e2a3203f7be00fd5ee6.jpg
+    - date: 2022-10-24
+      content: 香香的麻酱米线😋
+      image:
+        - https://pic1.imgdb.cn/item/69156e093203f7be00fd5d77.jpg
+    - date: 2022-10-24
+      content: 小天地玉米烙
+      image:
+        - https://pic1.imgdb.cn/item/69156e003203f7be00fd5d1d.jpg
+    - date: 2022-10-24
+      content: 公司的香香的饭
+      image:
+        - https://pic1.imgdb.cn/item/69156dd23203f7be00fd5b20.jpg
+    - date: 2022-10-24
+      content: 环球影城的万圣节限定周边
+      image:
+        - https://pic1.imgdb.cn/item/69154de13203f7be00fbb712.jpg
+    - date: 2022-10-24
+      content: 537胡同之旅
+      image:
+        - https://pic1.imgdb.cn/item/69154dae3203f7be00fbb46c.jpg
+    - date: 2022-10-24
+      content: 晶晶师姐家的猫
+      image:
+        - https://pic1.imgdb.cn/item/69154c343203f7be00fbaa88.jpg
+    - date: 2022-10-24
+      content: 和荷叶饭看mc大电影，发现后排的魔丸灵珠座位，何意味？
+      image:
+        - https://pic1.imgdb.cn/item/6915964c3203f7be00fee7ff.jpg
+    - date: 2022-10-24
+      content: 我们年轻人现在都抽这个，劲大
+      image:
+        - https://pic1.imgdb.cn/item/691596603203f7be00fee96e.jpg
+    - date: 2022-10-24
+      content: 不准在吸烟处吸烟
+      image:
+        - https://pic1.imgdb.cn/item/691596653203f7be00fee9bb.jpg
+
+    - date: 2022-10-24
+      content: 不要小看我们minisoland的鸡蛋啊😭
+      image:
+        - https://pic1.imgdb.cn/item/6915967c3203f7be00feeac6.jpg
+
+    - date: 2022-10-24
+      content: 沉默不语的靠着车窗吸烟的乘客
+      image:
+        - https://pic1.imgdb.cn/item/691596823203f7be00feeb00.jpg
+
+    - date: 2022-10-24
+      content: 闯荡江湖
+      image:
+        - https://pic1.imgdb.cn/item/691596693203f7be00feea00.jpg
+
+    - date: 2022-10-24
+      content: epi的人怎么到处都是
+      image:
+        - https://pic1.imgdb.cn/item/691596913203f7be00feebad.jpg
+
+    - date: 2022-10-24
+      content: 然然子给我画的头像
+      image:
+        - https://pic1.imgdb.cn/item/691596a43203f7be00feec61.png
+
+    - date: 2022-10-24
+      content: 三人小队元宵节
+      image:
+        - https://pic1.imgdb.cn/item/691596f53203f7be00fef0a0.jpg
+
+    - date: 2022-10-24
+      content: 那个，你次不次轰隆果
+      image:
+        - https://pic1.imgdb.cn/item/691596fa3203f7be00fef0d4.jpg
+
+    - date: 2022-10-24
+      content: 拼豆537
+      image:
+        - https://pic1.imgdb.cn/item/691597003203f7be00fef11e.jpg
+
+    - date: 2022-10-24
+      content: 拼豆陈俊男
+      image:
+        - https://pic1.imgdb.cn/item/691597053203f7be00fef155.jpg
+
+    - date: 2022-10-24
+      content: 拼豆照照和🌰
+      image:
+        - https://pic1.imgdb.cn/item/691597243203f7be00fef289.jpg
+
+    - date: 2022-10-24
+      content: 辣嘴鸭我永远拥护你😭
+      image:
+        - https://pic1.imgdb.cn/item/691597313203f7be00fef32b.jpg
+
+    - date: 2022-10-24
+      content: 和然然子一起做的扎染发带
+      image:
+        - https://pic1.imgdb.cn/item/691597363203f7be00fef38c.jpg
+
+    - date: 2022-10-24
+      content: 藏狐拼豆，挂在了包上，格外适配
+      image:
+        - https://pic1.imgdb.cn/item/691597413203f7be00fef42e.jpg
+
+    - date: 2022-10-24
+      content: 用石塑粘土做的转蛋猫炉石
+      image:
+        - https://pic1.imgdb.cn/item/691597473203f7be00fef469.jpg
+
+    - date: 2022-10-24
+      content: 石塑粘土孙策，但是做成巧虎了。
+      image:
+        - https://pic1.imgdb.cn/item/6915974b3203f7be00fef4a0.jpg
+
+    - date: 2022-10-24
+      content: 五姨做的手擀面
+      image:
+        - https://pic1.imgdb.cn/item/691597533203f7be00fef4f3.jpg
+
+    - date: 2022-10-24
+      content: 恬淡的炉石
+      image:
+        - https://pic1.imgdb.cn/item/691597583203f7be00fef51a.jpg
+    - date: 2022-10-24
+      content: 537袜子
+      image:
+        - https://pic1.imgdb.cn/item/6915975d3203f7be00fef55c.jpg
+    - date: 2022-10-24
+      content: 用洁厕灵清洗整个🚻
+      image:
+        - https://pic1.imgdb.cn/item/691597623203f7be00fef599.jpg
+
+    - date: 2022-10-24
+      content: 用洁厕灵清洗整个🚻
+      image:
+        - https://pic1.imgdb.cn/item/691597623203f7be00fef599.jpg
+
+    - date: 2022-10-24
+      content: 冬天的穿搭。
+      image:
+        - https://pic1.imgdb.cn/item/691597673203f7be00fef5c6.jpg
+
+    - date: 2022-10-24
+      content: 颜色像牛粪的衣服
+      image:
+        - https://pic1.imgdb.cn/item/691597623203f7be00fef599.jpg
+
+    - date: 2022-10-24
+      content: 牛粪
+      image:
+        - https://pic1.imgdb.cn/item/6915976b3203f7be00fef5fe.webp
+
+    - date: 2022-10-24
+      content: 可爱的普洱
+      image:
+        - https://pic1.imgdb.cn/item/6915bb733203f7be00ffcb30.jpg
+
+    - date: 2022-10-24
+      content: 茶馆的扭扭棒鼠鼠
+      image:
+        - https://pic1.imgdb.cn/item/6915bb923203f7be00ffcc0b.jpg
+
+    - date: 2022-10-24
+      content: 荷叶饭你怎么勒
+      image:
+        - https://pic1.imgdb.cn/item/6915bba43203f7be00ffcc93.jpg
+
+
+    - date: 2022-10-24
+      content: 看着像残疾人
+      image:
+        - https://pic1.imgdb.cn/item/6915bbbb3203f7be00ffcd6a.jpg
+
+
+    - date: 2022-10-24
+      content: 最像人的一集
+      image:
+        - https://pic1.imgdb.cn/item/6915bbd73203f7be00ffce17.jpg
+
+
+    - date: 2022-10-24
+      content: 唐人拍唐照
+      image:
+        - https://pic1.imgdb.cn/item/6915bbea3203f7be00ffce84.jpg
+
+
+    - date: 2022-10-24
+      content: 这就是我的人生照片吗
+      image:
+        - https://pic1.imgdb.cn/item/6915bbfd3203f7be00ffcf1d.jpg
+
+
+    - date: 2022-10-24
+      content: 回乡探亲
+      image:
+        - https://pic1.imgdb.cn/item/6915bc183203f7be00ffd075.jpg
+
+    - date: 2022-10-24
+      content: 我想我会开始想念你～
+      image:
+        - https://pic1.imgdb.cn/item/6915bc303203f7be00ffd1ee.jpg
+
+    - date: 2022-10-24
+      content: 离开学校写代码就这样 
+      image:
+        - https://pic1.imgdb.cn/item/6915bca93203f7be00ffd522.jpg
+
+    - date: 2022-10-24
+      content: 我对学校就这样
+      image:
+        - https://pic1.imgdb.cn/item/6915bcad3203f7be00ffd54c.jpg
+
+    - date: 2022-10-24
+      content: 和荷叶饭去看老大的演唱会
+      image:
+        - https://pic1.imgdb.cn/item/6915bcb23203f7be00ffd57f.jpg
+
+    - date: 2022-10-24
+      content: 自己剪的刘海
+      image:
+        - https://pic1.imgdb.cn/item/6915bccc3203f7be00ffd662.jpg
+
+    - date: 2022-10-24
+      content: 把🐝拍到🐶身上
+      image:
+        - https://pic1.imgdb.cn/item/6915bcdf3203f7be00ffd6ec.jpg
+
+    - date: 2022-10-24
+      content: 可爱的毛豆
+      image:
+        - https://pic1.imgdb.cn/item/6915bd093203f7be00ffd827.jpg
+
+    - date: 2022-10-24
+      content: 原来我高中就已经变成巨人观了
+      image:
+        - https://pic1.imgdb.cn/item/6915bd0c3203f7be00ffd846.jpg
+
+    - date: 2022-10-24
+      content: 老家的湖结冰之后与陆地分开了
+      image:
+        - https://pic1.imgdb.cn/item/6915bd1d3203f7be00ffd8ba.jpg
+
+    - date: 2022-10-24
+      content: 在老家的泥泞土坡练坡起
+      image:
+        - https://pic1.imgdb.cn/item/6915bd823203f7be00ffdc12.jpg
+
+    - date: 2022-10-24
+      content: 冬天的骑行
+      image:
+        - https://pic1.imgdb.cn/item/6915be003203f7be00ffe1c0.jpg
+
+    - date: 2022-10-24
+      content: 由于地上有霜坠机
+      image:
+        - https://pic1.imgdb.cn/item/6915be633203f7be00ffe592.jpg
+
+    - date: 2022-10-24
+      content: 我姐老家被拍卖了
+      image:
+        - https://pic1.imgdb.cn/item/6915be353203f7be00ffe40e.jpg
+
+
+
+
+- class_name: 死学校
+  path_name: /school
+  type: 1
+  description: 和西安邮电斗争的每分每秒。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://pic1.imgdb.cn/item/6915bcb73203f7be00ffd5b8.jpg
+  cover: https://pic1.imgdb.cn/item/691596353203f7be00fee67f.jpg
+  album_list:
+    - date: 2022-10-24
+      content: 此校的拖尸机器人
+      image:
+        - https://pic1.imgdb.cn/item/691585ba3203f7be00fe725c.jpg
+    - date: 2022-10-24
+      content: ACM，，打打，打 起来
+      image:
+        - https://pic1.imgdb.cn/item/691585a53203f7be00fe7191.jpg
+    - date: 2022-10-24
+      content: “老师，你们学校怎么训练算法的”
+      image:
+        - https://pic1.imgdb.cn/item/691585793203f7be00fe7084.jpg
+    - date: 2022-10-24
+      content: 骗你的，西安邮电的洗衣机根本洗不干净衣服
+      image:
+        - https://pic1.imgdb.cn/item/691574063203f7be00fdb049.jpg
+    - date: 2022-10-24
+      content: 谁的苦茶子
+      image:
+        - https://pic1.imgdb.cn/item/691573f93203f7be00fdaff8.jpg
+    - date: 2022-10-24
+      content: 西安邮电的粉色的鸟屎
+      image:
+        - https://pic1.imgdb.cn/item/691573ed3203f7be00fdaf9b.jpg.jpg
+    - date: 2022-10-24
+      content: 死通原实验
+      image:
+        - https://pic1.imgdb.cn/item/691573de3203f7be00fdaf21.jpg
+    - date: 2022-10-24
+      content: 整所学校都没有一个带插口的，带桌子的，可以学习的地方
+      image:
+        - https://pic1.imgdb.cn/item/691573c23203f7be00fdae04.jpg
+    - date: 2022-10-24
+      content: 我除了毕业证别无所求了
+      image:
+        - https://pic1.imgdb.cn/item/691573ba3203f7be00fdadb5.jpg
+    - date: 2022-10-24
+      content: 冲水的按钮飘落
+      image:
+        - https://pic1.imgdb.cn/item/6915739d3203f7be00fdad49.jpg
+    - date: 2022-10-24
+      content: 学校安栏杆学生拆，如此循环
+      image:
+        - https://pic1.imgdb.cn/item/691573893203f7be00fdac89.jpg
+    - date: 2022-10-24
+      content: 数电实验
+      image:
+        - https://pic1.imgdb.cn/item/691573763203f7be00fdabce.jpg
+    - date: 2022-10-24
+      content: 不知道在干嘛的一堆椅子
+      image:
+        - https://pic1.imgdb.cn/item/6915735b3203f7be00fdaabb.jpg
+    - date: 2022-10-24
+      content: 草泥马之死，死后正式更名为草死了泥马
+      image:
+        - https://pic1.imgdb.cn/item/691573463203f7be00fda9e9.jpg
+    - date: 2022-10-24
+      content: 成为芯片的鼠标USB接收器
+      image:
+        - https://pic1.imgdb.cn/item/691573323203f7be00fda917.jpg
+
+    - date: 2022-10-24
+      content: 绝望的饺子
+      image:
+        - https://pic1.imgdb.cn/item/691573143203f7be00fda7db.jpg
+    - date: 2022-10-24
+      content: 绝望的复习
+      image:
+        - https://pic1.imgdb.cn/item/69156f9d3203f7be00fd6f26.jpg
+    - date: 2022-10-24
+      content: 此刻，艺术已成
+      image:
+        - https://pic1.imgdb.cn/item/69156e4f3203f7be00fd60a1.jpg
+    - date: 2022-10-24
+      content: 神人咒怨者
+      image:
+        - https://pic1.imgdb.cn/item/69156df73203f7be00fd5cb3.jpg
+        
+    - date: 2022-10-24
+      content: 我就算是魔丸也该遇到属于自己的灵珠了
+      image:
+        - https://pic1.imgdb.cn/item/69156def3203f7be00fd5c5e.jpg
+    - date: 2022-10-24
+      content: 手机壳在此校阵亡了
+      image:
+        - https://pic1.imgdb.cn/item/69156dea3203f7be00fd5c26.jpg
+    - date: 2022-10-24
+      content: 神人学校孕育神人学生
+      image:
+        - https://pic1.imgdb.cn/item/69154c533203f7be00fbaaa9.jpg
+
+    - date: 2022-10-24
+      content: 省赛获奖名单，一堆看上去就很强很强的选手，根本打不过。
+      image:
+        - https://pic1.imgdb.cn/item/6915963a3203f7be00fee6c3.jpg
+
+    - date: 2022-10-24
+      content: 打省赛之前
+      image:
+        - https://pic1.imgdb.cn/item/691596413203f7be00fee722.jpg
+
+    - date: 2022-10-24
+      content: 打省赛之后
+      image:
+        - https://pic1.imgdb.cn/item/69159a843203f7be00ff1409.jpg
+
+    - date: 2022-10-24
+      content: 事故的成因（最终榜单）
+      image:
+        - https://pic1.imgdb.cn/item/6915965a3203f7be00fee8f3.png
+
+    - date: 2022-10-24
+      content: 补通原实验报告，密码的十六周还有实验
+      image:
+        - https://pic1.imgdb.cn/item/691596483203f7be00fee79c.jpg
+
+
+
+    - date: 2022-10-24
+      content: 周元哲
+      image:
+        - https://pic1.imgdb.cn/item/691596523203f7be00fee855.jpg
+
+    - date: 2022-10-24
+      content: 娜可露露
+      image:
+        - https://pic1.imgdb.cn/item/69159b743203f7be00ff178b.jpg
+  
+    - date: 2022-10-24
+      content: 终于知道为什么明明掏兜了还一堆纸屑了，原来是上个人的圣遗物
+      image:
+        - https://pic1.imgdb.cn/item/691596973203f7be00feebde.jpg
+  
+    - date: 2022-10-24
+      content: 神人周元哲
+      image:
+        - https://pic1.imgdb.cn/item/6915969b3203f7be00feec08.jpg
+  
+
+    - date: 2022-10-24
+      content: 何意味的门
+      image:
+        - https://pic1.imgdb.cn/item/691596a03203f7be00feec38.jpg
+  
+    - date: 2022-10-24
+      content: 像寄吧的球和柱子
+      image:
+        - https://pic1.imgdb.cn/item/691596be3203f7be00feeda6.jpg
+
+    - date: 2022-10-24
+      content: 何意味的两排球
+      image:
+        - https://pic1.imgdb.cn/item/691596c43203f7be00feedf8.jpg
+
+    - date: 2022-10-24
+      content: 小白板
+      image:
+        - https://pic1.imgdb.cn/item/691596d73203f7be00feeee0.jpg
+
+    - date: 2022-10-24
+      content: 祝愿手环
+      image:
+        - https://pic1.imgdb.cn/item/691596dd3203f7be00feef32.jpg
+
+    - date: 2022-10-24
+      content: 病号服
+      image:
+        - https://pic1.imgdb.cn/item/691596ea3203f7be00fef00f.jpg
+
+    - date: 2022-10-24
+      content: 同学你死了没
+      image:
+        - https://pic1.imgdb.cn/item/691596ef3203f7be00fef059.jpg
+  
+
+         
+    - date: 2022-10-24
+      content: 暴雪校园行😭
+      image:
+        - https://pic1.imgdb.cn/item/6915bb9d3203f7be00ffcc58.jpg
+
+
+    - date: 2022-10-24
+      content: 通过自己的努力抽到的伞（来回跑了三遍活动负责人看不下去了让我抽奖的时候看着箱子拿绿色的球）
+      image:
+        - https://pic1.imgdb.cn/item/6915bdeb3203f7be00ffe121.jpg
+
+
+    - date: 2022-10-24
+      content: 晒被子盛况
+      image:
+        - https://pic1.imgdb.cn/item/6915bcbc3203f7be00ffd5d7.jpg
+
+
+    - date: 2022-10-24
+      content: 给花浇水
+      image:
+        - https://pic1.imgdb.cn/item/6915bcc03203f7be00ffd60f.jpg
+
+
+    - date: 2022-10-24
+      content: 整个图书馆只有地上有插口，想充电只能像狗一样撅个大定趴在地上冲。
+      image:
+        - https://pic1.imgdb.cn/item/6915bcd03203f7be00ffd686.jpg
+
+
+    - date: 2022-10-24
+      content: 在学校我就这样变成巨人观
+      image:
+        - https://pic1.imgdb.cn/item/6915bcd53203f7be00ffd6a5.jpg
+
+
+    - date: 2022-10-24
+      content: 鼠窝，此杯子已变成流麻被我扔掉
+      image:
+        - https://pic1.imgdb.cn/item/6915bcd93203f7be00ffd6c5.jpg
+
+
+    - date: 2022-10-24
+      content: 你愿意在那片遍地鸟屎的地方等我吗
+      image:
+        - https://pic1.imgdb.cn/item/6915bce43203f7be00ffd711.jpg
+
+
+    - date: 2022-10-24
+      content: 模电实验
+      image:
+        - https://pic1.imgdb.cn/item/6915bce93203f7be00ffd73a.jpg
+
+
+    - date: 2022-10-24
+      content: 少数民族会议，旨在告诉所有人你为什么过的这么惨，以及学校是不可能花钱改变的（国家尚且存在着美好愿望与不平衡不充分的发展之间的矛盾，学校存在也很正常）
+      image:
+        - https://pic1.imgdb.cn/item/6915bcee3203f7be00ffd75e.jpg
+
+    - date: 2022-10-24
+      content: 西安邮电顶楼的跳楼的椅子被人踩烂了，近看你还在围栏里，监狱中
+      image:
+        - https://pic1.imgdb.cn/item/6915bd123203f7be00ffd86b.jpg
+
+    - date: 2022-10-24
+      content: 逃离cgc之后第一次围观剩下的可怜人点名，最终他们好像站了一个多小时
+      image:
+        - https://pic1.imgdb.cn/item/6915bd233203f7be00ffd8e2.jpg
+
+    - date: 2022-10-24
+      content: 西安邮电的艺术椅子
+      image:
+        - https://pic1.imgdb.cn/item/6915bd293203f7be00ffd910.jpg
+
+    - date: 2022-10-24
+      content: 全唐不夜城，远处看上去真的像发光的虫卵，丑到爆炸
+      image:
+        - https://pic1.imgdb.cn/item/6915bd533203f7be00ffdaa2.jpg
+
+    - date: 2022-10-24
+      content: 金工实习纯手工打造的锤子，把我当角磨机使磨低碳钢的死学校，现已被我赠送给我姐防身
+      image:
+        - https://pic1.imgdb.cn/item/6915bd6d3203f7be00ffdb59.jpg
+
+    - date: 2022-10-24
+      content: 暖气片爆了五层楼都被淹了，学校为了防滑撒的不知道啥玩意
+      image:
+        - https://pic1.imgdb.cn/item/6915bd743203f7be00ffdb82.jpg
+
+    - date: 2022-10-24
+      content: 实验室的床
+      image:
+        - https://pic1.imgdb.cn/item/6915bd773203f7be00ffdba2.jpg
+
+    - date: 2022-10-24
+      content: 赠予午间人工位的537照片
+      image:
+        - https://pic1.imgdb.cn/item/6915bd7e3203f7be00ffdbdb.jpg
+
+    - date: 2022-10-24
+      content: 女厕
+      image:
+        - https://pic1.imgdb.cn/item/6915bda63203f7be00ffde1e.jpg
+
+    - date: 2022-10-24
+      content: 女厕
+      image:
+        - https://pic1.imgdb.cn/item/6915bdb03203f7be00ffde8a.jpg
+
+    - date: 2022-10-24
+      content: 在学校食堂点的汤圆的拼好勺，软到爆炸，根本捞不起来，回实验室荷叶饭要拿梳子梳头结果梳子还被梳断了
+      image:
+        - https://pic1.imgdb.cn/item/6915bdb63203f7be00ffded9.jpg
+
+    - date: 2022-10-24
+      content: 我就这样。
+      image:
+        - https://pic1.imgdb.cn/item/6915bdbb3203f7be00ffdf13.jpg
+
+- class_name: 游戏人生
+  path_name: /play
+  type: 1
+  description: 光辉游戏史
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://pic1.imgdb.cn/item/6916a0803203f7be00026fc2.jpg
+  cover: https://pic1.imgdb.cn/item/691596293203f7be00fee619.jpg
+  album_list:
+    - date: 2022-10-24
+      content: 每一局都换不同的英雄还是逃不出被判定为牢玩家的宿命吗，哈吉轩你这家伙
+      image:
+        - https://pic1.imgdb.cn/item/69156f703203f7be00fd6d3a.jpg
+    - date: 2022-10-24
+      content: 老天爷我终于能当攻了因为我受不了了
+      image:
+        - https://pic1.imgdb.cn/item/69156f5d3203f7be00fd6c5f.jpg
+    - date: 2022-10-24
+      content: 搭配女王
+      image:
+        - https://pic1.imgdb.cn/item/69156f103203f7be00fd6909.jpg
+    - date: 2022-10-24
+      content: 454就是好看
+      image:
+        - https://pic1.imgdb.cn/item/69156efd3203f7be00fd682e.jpg
+    - date: 2022-10-24
+      content: 双人游戏中但凡有一个是猪就完了，还好我是猪
+      image:
+        - https://pic1.imgdb.cn/item/69156ef63203f7be00fd67de.jpg
+    
+    - date: 2022-10-24
+      content: 卡了一万年的关，直到现在我都没想明白这玩意咋过
+      image:
+        - https://pic1.imgdb.cn/item/69156ee13203f7be00fd66ed.jpg
+    
+
+    - date: 2022-10-24
+      content: 一个现实生活里都会迷路的人在游戏里也是看不懂地图的。
+      image:
+        - https://pic1.imgdb.cn/item/69156ed53203f7be00fd6665.jpg
+    
+
+    - date: 2022-10-24
+      content: 依旧看不懂怎么练莫名其妙过的
+      image:
+        - https://pic1.imgdb.cn/item/69156e663203f7be00fd61a0.jpg
+    
+
+    - date: 2022-10-24
+      content: 我是捣蛋猪甜菜
+      image:
+        - https://pic1.imgdb.cn/item/69156e3c3203f7be00fd5fc5.jpg
+    
+
+    - date: 2022-10-24
+      content: 死了都要爱
+      image:
+        - https://pic1.imgdb.cn/item/69156e313203f7be00fd5f41.jpg
+    
+
+    - date: 2022-10-24
+      content: 本小姐是你在废墟中唯一的信仰
+      image:
+        - https://pic1.imgdb.cn/item/69156e103203f7be00fd5dc9.jpg
+    
+
+    - date: 2022-10-24
+      content: 帅吗，不帅删了
+      image:
+        - https://pic1.imgdb.cn/item/691596c93203f7be00feee3b.jpg
+    
+
+    - date: 2022-10-24
+      content: 如厕
+      image:
+        - https://pic1.imgdb.cn/item/691596cf3203f7be00feee83.png
+    
+
+    - date: 2022-10-24
+      content: 无限暖暖
+      image:
+        - https://pic1.imgdb.cn/item/6915beaf3203f7be00ffe80d.png
+    
+
+
+- class_name: 梗图
+  path_name: /gengtu
+  type: 1
+  description: 一堆乱七八糟的梗图。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://pic1.imgdb.cn/item/691691403203f7be000205bf.jpg
+  cover: https://pic1.imgdb.cn/item/691691463203f7be00020615.jpg
+  album_list:
+    - date: 2022-10-24
+      content: 老兄你一定是吃到了毒草
+      image:
+        - https://pic1.imgdb.cn/item/6915731a3203f7be00fda81f.jpg
+    - date: 2022-10-24
+      content: 铜丝你喵
+      image:
+        - https://pic1.imgdb.cn/item/691585903203f7be00fe70e5.jpg  
+    - date: 2022-10-24
+      content: IP：工位
+      image:
+        - https://pic1.imgdb.cn/item/69156f1e3203f7be00fd6997.jpg  
+    - date: 2022-10-24
+      content: 往年今日
+      image:
+        - https://pic1.imgdb.cn/item/69156de23203f7be00fd5bc6.jpg   
+
+
+
+
+
