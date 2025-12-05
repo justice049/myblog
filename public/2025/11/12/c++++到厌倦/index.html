@@ -1,0 +1,876 @@
+<!DOCTYPE html><html lang="zh_cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>C++++到厌倦 | 贩卖纯净水🛌</title><meta name="keywords" content="C++语法"><meta name="author" content="贩卖纯净水"><meta name="copyright" content="贩卖纯净水"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="C++++到厌倦"><meta name="application-name" content="C++++到厌倦"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="C++++到厌倦"><meta property="og:url" content="http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/index.html"><meta property="og:site_name" content="贩卖纯净水🛌"><meta property="og:description" content="​从今天起，我要开始hello，world。 往后更要做到，拳打数据结构，脚踢Linux。 这就是江湖人的风范。 拼搏百天，我要学希普拉斯普拉斯。 C++是在C的基础之上，容纳进去了面向对象编程思想，并增加了许多有用的库，以及编程范式 等。 都说C++是C的补充与延伸，也就是针对C不足的地方进行改进"><meta property="og:locale" content="zh_cn"><meta property="og:image" content="https://pic1.imgdb.cn/item/691c4afd3203f7be00137cb5.jpg"><meta property="article:author" content="贩卖纯净水"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://pic1.imgdb.cn/item/691c4afd3203f7be00137cb5.jpg"><meta name="description" content="​从今天起，我要开始hello，world。 往后更要做到，拳打数据结构，脚踢Linux。 这就是江湖人的风范。 拼搏百天，我要学希普拉斯普拉斯。 C++是在C的基础之上，容纳进去了面向对象编程思想，并增加了许多有用的库，以及编程范式 等。 都说C++是C的补充与延伸，也就是针对C不足的地方进行改进"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'switch.vgntueo.',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":["🚩 旗鼓相当的队友","🎯 沉默的高玩"]},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 贩卖纯净水","link":"链接: ","source":"来源: 贩卖纯净水🛌","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '贩卖纯净水🛌',
+  title: 'C++++到厌倦',
+  postAI: '',
+  pageFillDescription: '域, namespace, 命名空间的概念, 命名空间的使用, hello world, 缺省参数（默认参数）, 使用, 分类, 全缺省参数, 半缺省参数, 函数重载, 参数类型不同, 参数个数不同, 参数类型顺序不同, 引用, 概念, 特点, 常引用, 引用和指针的区别, 内联函数, 使用宏, auto关键字, 使用, 基于范围的for循环, 指针空值从今天起我要开始往后更要做到拳打数据结构脚踢这就是江湖人的风范拼搏百天我要学希普拉斯普拉斯是在的基础之上容纳进去了面向对象编程思想并增加了许多有用的库以及编程范式等都说是的补充与延伸也就是针对不足的地方进行改进那么究竟有哪些不足呢请看码这样的程序乍一看没有问题但是会报错报什么样的错呢我们创建了一个全局变量但是在的库里包含着这个函数出现了命名冲突程序员的命名和库出现冲突库可以是标准库第三方库等等语言没办法解决类似这样的命名冲突问题所以提出了来解决在中变量函数和类都是大量存在的这些变量函数和类的名称将都存在于全局作用域中可能会导致很多冲突在提命名空间前先说一个字域域请看码输出结果是什么呢当然是第一个是全局变量第二个是局部变量那么有没有办法访问那个身为全局变量的呢当然可以只需要加一个奇妙的符号域作用限定符在中有全局域局部域命名空间域和类域局部域相当于自己家的菜地全局域相当于野生菜地命名空间域相当于邻居的菜地不同域可定义同名变量编译器在搜索时秉持着这样的原则不指定域局部域全局域指定域去指定域搜索若都没有则报错想要访问那个全局变量可以指定域也可以这样默认去全局搜索使用命名空间可以将标识符的名称进行本地化以避免命名冲突或名字污染关键字的出现就是针对这种问题的命名空间的概念命名空间中可以定义变量函数和类型命名空间可以嵌套同一个工程中可以出现同名的命名空间编译器最后会合成于同一个命名空间中命名空间的使用命名空间的使用有三种方式加命名空间名称及作用域限定符为命名空间的名称使用将命名空间中某个成员引入使用命名空间名称引入不展开也可以访问命名空间中的内容自己携带零食展开命名空间相当于随便访问命名空间中的内容学校允许带零食在遇到结构体时域作用限定符应这样而不是这样认识第一个程序吧是标准库的命名空间名将标准库的定义实现都放到这个命名空间中这行代码意义是展开这个命名空间若没有这句程序将会报错但是展开容易有冲突日常练习中直接即可方便快捷项目开发中使用展开标准库全部暴露出如果我们定义跟库重名的类型对象函数就存在冲突问题代码较多规模大输入输出和都在这个头文件下被包裹和分别是和类型的对象标准输出对象控制台标准输入对象键盘和在中是左移右移的意思但在中符号进行了复用左移流插入运算符很形象流向对象右移流提取运算符可以流很多可以自动识别类型码相当于换行符用这种方式怎么控制输出精度呢兼容用之前的方法就好流提取从键盘提取到变量中也可以连续提取缺省参数默认参数使用缺省参数是声明或定义函数时为函数的参数指定一个缺省值在调用该函数时如果没有指定实参则采用该形参的缺省值否则使用指定的实参没有传参时使用参数的默认值传参时使用指定的实参分类全缺省参数半缺省参数半缺省参数必须从右往左依次给出不能间隔着给缺省参数不能在函数声明和定义中同时出现如果声明与定义位置同时出现恰巧两个位置提供的值不同那编译器就无法确定到底该用哪个缺省值在声明处给编译阶段才不会报错缺省值必须是常量或者全局变量语言不支持编译器不支持函数重载函数重载就是一词多义是函数的一种特殊情况允许在同一作用域中声明几个功能类似的同名函数这些同名函数的形参列表参数个数或类型或类型顺序不同常用来处理实现功能类似数据类型不同的问题一个变量可以有多个引用多个别名参数类型不同参数个数不同参数类型顺序不同支持函数重载的原理名字修饰为什么支持函数重载而语言不支持呢因为语言在链接时直接用函数名去找地址不允许同名函数引入函数名修饰规则由各个编译器自己实现以为例在下采用编译完成后函数名字的修饰不变在下采用编译完成后函数名字的修饰发生改变编译器将函数参数类型信息添加到修改后的名字中的函数修饰后变成函数长度函数名类型首字母通过函数修饰规则来区分只要参数不同修饰出来的名字就不一样就支持了重载如果两个函数函数名和参数是一样的返回值不同是不构成重载的因为调用时编译器没办法区分引用概念引用不是新定义一个变量而是给已存在变量取了一个别名编译器不会为引用变量开辟内存空间它和它引用的变量共用同一块内存空间怎么取别名呢祖师爷又复用了以前的一个符号定义引用类型是的别名也可以给别名取别名抓我鲁迅当然和你周树人有关系引用类型必须和引用实体是同种类型的特点引用在定义时必须初始化一个变量可以有多个引用引用一旦引用一个实体再不能引用其他实体编译时出错常引用三种情况都在这啦编译出错为常量编译出错为常量编译出错类型不同常引用的意思就是取别名但是不期望修改原来的值一种变相的对权限的缩小临时变量具有常属性不支持修改所以这样必错在这个阶段它发生的是创建临时变量再进行取别名为什么是创建临时变量呢因为我们在学的时候曾经见过这样一个东西相等和进行比较不做改动创建一个临时变量进行类型提升后再做比较是和临时对象比的使用场景做参数在语言阶段我们应该都写过这样一个函数交换两数的值由于形参是实参的一份临时拷贝对形参的修改不影响实参所以我们想要实现交换两数就必须进行传址调用但是在引入了引用这个概念后就会变得方便很多在这里被看做是的别名被看做是的别名指针和引用功能类似近乎重叠那么引用是否可以完全替代指针呢都说是在的基础上做出的完善而的引用是对指针使用比较复杂的场景进行的替换让代码更简单易懂但是不能完全替代指针原因引用定义后不可改变指向这也就不能用引用代替指针完成链表二叉树等的增加删除等操作那有没有指针呢并没有那它们是怎么实现链表的呢用引用好一个以子之矛攻子之盾其实等语言变量定义出来就是引用并且可以改变指向和嘎嘎不一样哦引用就是不能替代指针指针就是坠吊的总结一下引用在做参数方面的杰出贡献做输出型参数对象比较大减少拷贝提高效率做返回值请看这段代码在这里函数的返回值是由寄存器带回的而不是返回出作用域就销毁的临时变量指针在使用的时候可能会出现野指针那么引用有没有可能出现野引用呢这就是将的别名返回了访问已经还给操作系统的空间造成了野引用结果认为是随机值由于栈帧空间是可以重复使用的所以这段代码最终结果是感兴趣的话可以康康函数栈帧的创建与销毁博客变量出了函数作用域生命周期结束要销毁局部变量不能用引用返回薛定谔的猫若是全局变量静态变量堆上的空间等则可以用引用返回以值作为参数或者返回值类型在传参和返回期间函数不会直接传递实参或者将变量本身直接返回而是传递实参或者返回变量的一份临时的拷贝因此用值作为参数或者返回值类型效率是非常低下的尤其是当参数或者返回值类型非常大时效率就更低传值和指针在作为传参以及返回值类型上效率相差很大引用和指针的区别引用概念上定义一个变量的别名指针存储一个变量地址引用在定义时必须初始化指针没有要求引用在初始化时引用一个实体后就不能再引用其他实体而指针可以在任何时候指向任何一个同类型实体没有引用但有指针在中含义不同引用结果为引用类型的大小但指针始终是地址空间所占字节个数位平台下占个字节引用自加即引用的实体增加指针自加即指针向后偏移一个类型的大小有多级指针但是没有多级引用访问实体方式不同指针需要显式解引用引用编译器自己处理引用比指针使用起来更安全指针肯定要开辟空间那引用需不需要开辟空间呢引用从语法上不需要开辟空间但引用的底层实现开辟了空间引用底层是用指针实现的语法含义和底层实现背离明确一点在汇编层面上没有引用都是指针引用编译后也转换成指针了内联函数在语言中使用函数会有一定开销创建函数栈帧如果需要频繁调用一个函数那可能造成的开销就过大最终导致栈溢出或者怎么怎么那是如何解决这个问题的呢使用宏复习一下宏宏在预处理阶段进行替换不是函数没有分号括号控制优先级例在这个宏定义中为何要加里面的括号因为或者可能是表达式不加可能会由于运算符优先级出错宏优点增强代码的复用性提高性能宏缺点语法复杂坑多不容易控制不能调试没有类型安全的检查基于这些呢祖师爷就想着做出一些创作规避这些缺点内联函数应运而生以修饰的函数叫做内联函数编译时编译器会在调用内联函数的地方展开没有函数调用建立栈帧的开销内联函数提升程序运行的效率是一种以空间换时间的做法如果编译器将函数当成内联函数处理在编译阶段会用函数体替换函数调用在版本中内联函数默认是不展开的在模式下会展开若想要在模式下展开内联函数则需要对编译器进行设置内联也不是完美的也有缺陷当函数过大就不适合定义成内联了会导致代码膨胀程序变大程序变大就变大呗有啥坏处呢举个例子墨墨喜欢打王者她苹果和安卓都有号双开的她在更新游戏时发现了小小的不同诶嘿苹果的这个居然更新的那么快明明都是一样的内容呀墨墨开始巴拉巴拉她家网线但是后面发觉不对劲网肯定一样啊一看占用内存嚯下更新的内容五百多兆安卓下更新的快到了根网速没关系只是下的那个版本小一些所以变大肯定不好啦缺陷可能会使目标文件变大优势少了调用开销提高程序运行效率对于编译器而言只是一个建议不同编译器关于实现机制可能不同一般建议将函数规模较小即函数不是很长具体没有准确的说法取决于编译器内部实现不是递归且频繁调用的函数采用修饰否则编译器会忽略特性内联不建议声明和定义分离分离会导致链接错误被展开就没有函数地址了链接就会找不到嵌套以后舍去一个预处理阶段不展开会出问题那再顺便墨迹一嘴为什么要声明和定义分离链接错误可能就出现找不到定义这是由于函数在使用前没看到声明但其实还有一种错误找到一个或多个多重定义的符号这是咋回事捏就比如你在某个头文件下定义了一个函数然后有两个源文件都包含了这个头文件在展开的时候就会生成两个文件从而发生重定义不构成函数重载编译器认为你定义的是同名函数至于这个是干嘛的呢解决头文件包含重复防止头文件重复展开的那假如我就是想要声明和定义在一起有没有解决办法捏当然有用还记得修饰函数怎么样么会改变函数的链接属性只在当前文件可用还有别的方式就是内联内联不支持声明和定义分离地址加载到符号表是为了方便调用而内联函数的底层逻辑是展开不涉及调用所以总结一下使用方法就是小函数用内联大函数用静态关键字使用平时我们定义变量这样定义不过也可以这样定义的作用是自动类型识别和引用类似必须初始化根据右面推导左面就像是类型声明时的占位符那它设计出来有什么价值呢请看这个这是一种函数指针玩波花的可以这样让它自己去识别嘛在用用声明指针类型时用和没有任何区别但是用声明引用类型时则必须加在同一行定义多个变量时这些变量必须是相同的类型否则编译器将会报错编译器实际只对第一个类型进行推导然后用推导出来的类型定义其他变量在嘎嘎中可以这样打印类型结果不能做参数支持做返回值不能直接用来声明数组基于范围的循环在平常我们一般怎么遍历数组这样对吧但是对于一个有范围的集合而言由程序员来说明循环的范围是多余的有时候还会容易犯错因此中引入了基于范围的循环在基于范围的循环中循环后的括号由冒号分为两部分第一部分是范围内用于迭代的变量第二部分表示被迭代的范围依次取数组中的值赋值给自动迭代自动判断结束这时的相当于数组中值的拷贝就跟函数形参实参一样不改变实际值加个引用就好了加引用后和普通循环类似可以用来结束本次循环也可以用来跳出整个循环指针空值在中我们怎么表示空指针这样对吧那又有什么问题在导致需要在中做出改良呢请看这个程序的本意是想通过调用指针版本的函数但是别忘了是个宏宏啊宏常量值是的宏常量和我们这次调用的初衷相悖了在中字面常量既可以是一个整形数字也可以是无类型的指针常量但是编译器默认情况下将其看成是一个整形常量如果要将其按照指针方式来使用必须对其进行强转然后呢就觉得这样使用不太方便所以在中引入了一个关键字所以以后初始化指针就可以用了为了挺高代码健壮性以后就都用啦',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-11-20 11:41:08',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 8 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><style>
+  .page-douban #sidebar,
+  .page-douban .post-meta,
+  .page-douban .post-footer { display: none; }
+</style>
+<meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="/img/congyu.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.csdn.net/chestnut_orenge" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/congyu.png" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/justice049" title="Github"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/691d91cf3203f7be0018031d.jpg" alt="Github"/><span class="back-menu-item-text">Github</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">贩卖纯净水🛌</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=9612066653&amp;server=tencent"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-envelope"></use></svg><span> 留言板</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C-%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/" style="font-size: 1.05rem;">C++内存分配<sup>1</sup></a><a href="/tags/C-%E8%AF%AD%E6%B3%95/" style="font-size: 1.05rem;">C++语法<sup>4</sup></a><a href="/tags/CSS/" style="font-size: 1.05rem;">CSS<sup>8</sup></a><a href="/tags/HTML/" style="font-size: 1.05rem;">HTML<sup>2</sup></a><a href="/tags/JS/" style="font-size: 1.05rem;">JS<sup>14</sup></a><a href="/tags/Linux%E6%8C%87%E4%BB%A4/" style="font-size: 1.05rem;">Linux指令<sup>1</sup></a><a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 1.05rem;">二叉树<sup>2</sup></a><a href="/tags/%E5%A0%86/" style="font-size: 1.05rem;">堆<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/" style="font-size: 1.05rem;">数据存储<sup>1</sup></a><a href="/tags/%E6%97%B6%E7%A9%BA%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 1.05rem;">时空复杂度<sup>1</sup></a><a href="/tags/%E6%A0%88/" style="font-size: 1.05rem;">栈<sup>2</sup></a><a href="/tags/%E9%93%BE%E8%A1%A8/" style="font-size: 1.05rem;">链表<sup>3</sup></a><a href="/tags/%E9%98%9F%E5%88%97/" style="font-size: 1.05rem;">队列<sup>1</sup></a><a href="/tags/%E9%A1%BA%E5%BA%8F%E8%A1%A8/" style="font-size: 1.05rem;">顺序表<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/12/"><span class="card-archive-list-date">十二月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">17</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/11/"><span class="card-archive-list-date">十一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">25</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/C/" itemprop="url">C++</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/C-%E8%AF%AD%E6%B3%95/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>C++语法</span></a></span></div></div><h1 class="post-title" itemprop="name headline">C++++到厌倦</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2025-11-12T02:23:32.941Z" title="发表于 2025-11-12 10:23:32">2025-11-12</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2025-11-20T03:41:08.971Z" title="更新于 2025-11-20 11:41:08">2025-11-20</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">6k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>21分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为北京"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>北京</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://pic1.imgdb.cn/item/691c4afd3203f7be00137cb5.jpg"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/"><header><a class="post-meta-categories" href="/categories/C/" itemprop="url">C++</a><a href="/tags/C-%E8%AF%AD%E6%B3%95/" tabindex="-1" itemprop="url">C++语法</a><h1 id="CrawlerTitle" itemprop="name headline">C++++到厌倦</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">贩卖纯净水</span><time itemprop="dateCreated datePublished" datetime="2025-11-12T02:23:32.941Z" title="发表于 2025-11-12 10:23:32">2025-11-12</time><time itemprop="dateCreated datePublished" datetime="2025-11-20T03:41:08.971Z" title="更新于 2025-11-20 11:41:08">2025-11-20</time></header><p>​从今天起，我要开始hello，world。</p>
+<p>往后更要做到，拳打数据结构，脚踢Linux。</p>
+<p>这就是江湖人的风范。</p>
+<p>拼搏百天，我要学希普拉斯普拉斯。</p>
+<p>C++是在C的基础之上，容纳进去了面向对象编程思想，并增加了许多有用的库，以及编程范式 等。</p>
+<p>都说C++是C的补充与延伸，也就是针对C不足的地方进行改进，那么C究竟有哪些不足呢？</p>
+<p>请看码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> rand = <span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, rand);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这样的程序乍一看没有问题，但是会报错，报什么样的错呢？</p>
+<p>我们创建了一个全局变量rand，但是在&lt;stdlib.h&gt;的库里包含着rand这个函数，出现了命名冲突（程序员的命名和库出现冲突，库可以是标准库、第三方库等等）</p>
+<p>C语言没办法解决类似这样的命名冲突问题，所以C++提出了namespace来解决。</p>
+<p>在C&#x2F;C++中，变量、函数和类都是大量存在的，这些变量、函数和类的名称将都存在于全局作用域中，可能会导致很多冲突。</p>
+<p>在提命名空间前，先说一个字:域</p>
+<h3 id="域"><a href="#域" class="headerlink" title="域"></a>域</h3><p>请看码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> x = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> x = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,x);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>输出结果是什么呢？</p>
+<p>当然是1。</p>
+<p>第一个x是全局变量，第二个x是局部变量。</p>
+<p>那么有没有办法访问那个身为全局变量的x呢？</p>
+<p>当然可以，只需要加一个奇妙的符号：域作用限定符​<strong>​ （::<strong>​</strong>）</strong></p>
+<p>在C++中，有全局域、局部域，命名空间域和类域。</p>
+<p>局部域相当于自己家的菜地，全局域相当于野生菜地，命名空间域相当于邻居的菜地。</p>
+<p>不同域可定义同名变量。</p>
+<p>编译器在搜索时，秉持着这样的原则：</p>
+<blockquote>
+<p>不指定域：</p>
+<p>1.局部域</p>
+<p>2.全局域</p>
+<p>指定域：</p>
+<p>去指定域搜索</p>
+<p>若都没有，则报错</p>
+</blockquote>
+<p>想要访问那个全局变量，可以指定域：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">namespace</span> wes1</span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> x = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> x = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,wes1::x);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>也可以这样，默认去全局搜索：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> x = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> x = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,::x);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="namespace"><a href="#namespace" class="headerlink" title="namespace"></a>namespace</h3><p>使用命名空间可以将标识符的名称进行本地化， 以避免命名冲突或名字污染，namespace关键字的出现就是针对这种问题的。</p>
+<h4 id="命名空间的概念"><a href="#命名空间的概念" class="headerlink" title="命名空间的概念"></a>命名空间的概念</h4><p><strong>命名空间中可以定义变量、函数和类型</strong></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">namespace</span> wes1</span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> rand = <span class="number">10</span>;</span><br><span class="line">	<span class="function"><span class="type">int</span> <span class="title">Add</span><span class="params">(<span class="type">int</span> left, <span class="type">int</span> right)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> left + right;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">struct</span> <span class="title class_">Node</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">struct</span> <span class="title class_">Node</span>* next;</span><br><span class="line">		<span class="type">int</span> val;</span><br><span class="line">	&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>命名空间可以嵌套</strong></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">namespace</span> N1</span><br><span class="line">&#123;</span><br><span class="line"><span class="type">int</span> a;</span><br><span class="line"><span class="type">int</span> b;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Add</span><span class="params">(<span class="type">int</span> left, <span class="type">int</span> right)</span></span></span><br><span class="line"><span class="function"> </span>&#123;</span><br><span class="line">     <span class="keyword">return</span> left + right;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="keyword">namespace</span> N2</span><br><span class="line"> &#123;</span><br><span class="line">     <span class="type">int</span> c;</span><br><span class="line">     <span class="type">int</span> d;</span><br><span class="line">     <span class="function"><span class="type">int</span> <span class="title">Sub</span><span class="params">(<span class="type">int</span> left, <span class="type">int</span> right)</span></span></span><br><span class="line"><span class="function">     </span>&#123;</span><br><span class="line">         <span class="keyword">return</span> left - right;</span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>同一个工程中可以出现同名的命名空间，编译器最后会合成于同一个命名空间中</strong></p>
+<h4 id="命名空间的使用"><a href="#命名空间的使用" class="headerlink" title="命名空间的使用"></a>命名空间的使用</h4><p>命名空间的使用有三种方式：</p>
+<p>1.加命名空间名称及作用域限定符</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, N::a);   <span class="comment">//N为命名空间的名称</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.使用using将<strong>命名空间中某个成员</strong>引入</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> N::b;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, N::a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>3.使用using namespace <strong>命名空间名称</strong>引入</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> N;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, N::a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, b);</span><br><span class="line">    <span class="built_in">Add</span>(<span class="number">10</span>, <span class="number">20</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>不展开也可以访问命名空间中的内容（自己携带零食），展开命名空间相当于随便访问命名空间中的内容（学校允许带零食）</p>
+<p>tips：在遇到结构体时，域作用限定符应这样：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wes1 :: <span class="keyword">struct</span> <span class="title class_">Node</span> phead;</span><br></pre></td></tr></table></figure>
+
+<p>而不是这样：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">wes1</span> :: Node phead;</span><br></pre></td></tr></table></figure>
+
+<h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h3><p>认识第一个C++程序吧：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;hello world!&quot;</span> &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>std是C++标准库的命名空间名，C++将标准库的定义实现都放到这个命名空间中，这行代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br></pre></td></tr></table></figure>
+
+<p>意义是展开std这个命名空间，若没有这句，程序将会报错。（但是展开容易有冲突）</p>
+<ol>
+<li>日常练习中，直接using namespace std即可，方便快捷。</li>
+<li>项目开发中，使用using namespace std展开，标准库全部暴露出，如果我们定义跟库重名的类型&#x2F;对象&#x2F;函数，就存在冲突问题。（代码较多、规模大）</li>
+</ol>
+<p>C++输入输出</p>
+<p>cout和cin都在iostream这个头文件下，被std包裹（cout和cin分别是ostream和istream类型的对象）</p>
+<p><strong>cout：标准输出对象(控制台)</strong></p>
+<p><strong>cin：标准输入对象(键盘)</strong></p>
+<p>&lt;&lt;和&gt;&gt;在C中是左移右移的意思，但在C++中，符号进行了复用</p>
+<blockquote>
+<p><strong>&lt;&lt;</strong></p>
+<p>1.左移</p>
+<p>2.流插入运算符（很形象，流向对象）</p>
+<p><strong>&gt;&gt;</strong></p>
+<p>1.右移</p>
+<p>2.流提取运算符</p>
+</blockquote>
+<p>&lt;&lt;可以流很多，可以自动识别类型</p>
+<p>码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i = <span class="number">10</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;hello world!&quot;</span> &lt;&lt;i&lt;&lt;<span class="string">&#x27;\n&#x27;</span>&lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>tips：endl&#x3D;endline，相当于换行符</p>
+<p>C++用这种方式怎么控制输出精度呢？</p>
+<p>C++兼容C，用之前的方法就好。。。</p>
+<p><strong>cin流提取（从键盘提取到变量中，也可以连续提取）</strong></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i =<span class="number">0</span>;</span><br><span class="line">	<span class="type">int</span> p = <span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; i &gt;&gt; p;</span><br><span class="line">	cout &lt;&lt; i &lt;&lt; p &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="缺省参数（默认参数）"><a href="#缺省参数（默认参数）" class="headerlink" title="缺省参数（默认参数）"></a>缺省参数（默认参数）</h3><h4 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h4><p>缺省参数是声明或定义函数时为函数的参数指定一个缺省值。</p>
+<p>在调用该函数时，如果没有指定实 参则采用该形参的缺省值，否则使用指定的实参。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Func</span><span class="params">(<span class="type">int</span> a = <span class="number">0</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">Func</span>();     <span class="comment">// 没有传参时，使用参数的默认值</span></span><br><span class="line">	<span class="built_in">Func</span>(<span class="number">10</span>);   <span class="comment">// 传参时，使用指定的实参</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h4><h5 id="全缺省参数"><a href="#全缺省参数" class="headerlink" title="全缺省参数"></a>全缺省参数</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Func</span><span class="params">(<span class="type">int</span> a = <span class="number">10</span>, <span class="type">int</span> b = <span class="number">20</span>, <span class="type">int</span> c = <span class="number">30</span>)</span></span></span><br></pre></td></tr></table></figure>
+
+<h5 id="半缺省参数"><a href="#半缺省参数" class="headerlink" title="半缺省参数"></a>半缺省参数</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Func</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b = <span class="number">10</span>, <span class="type">int</span> c = <span class="number">20</span>)</span></span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>tips：</p>
+<ol>
+<li>半缺省参数必须<strong>从右往左</strong>依次给出，<strong>不能间隔</strong>着给</li>
+<li>缺省参数不能在函数声明和定义中同时出现（如果声明与定义位置同时出现，恰巧两个位置提供的值不同，那编译器就无法确定到底该用哪个缺省值，在声明处给编译阶段才不会报错）</li>
+</ol>
+<p>3.缺省值必须是常量或者全局变量</p>
+<ol start="4">
+<li>C语言不支持（编译器不支持）</li>
+</ol>
+</blockquote>
+<h3 id="函数重载"><a href="#函数重载" class="headerlink" title="函数重载"></a>函数重载</h3><p>函数重载就是一词多义，是函数的一种特殊情况。</p>
+<p>C++允许在<strong>同一作用域</strong>中声明几个功能类似的​<strong>同名函数</strong>​，这些同名函数的​<strong>形参列表(参数个数或类型或类型顺序)不同</strong>​，常用来处理实现功能类似数据类型不同的问题</p>
+<p>一个变量可以有多个引用，多个别名</p>
+<h4 id="参数类型不同"><a href="#参数类型不同" class="headerlink" title="参数类型不同"></a>参数类型不同</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">​<span class="function"><span class="type">int</span> <span class="title">Add</span><span class="params">(<span class="type">int</span> left, <span class="type">int</span> right)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;int Add(int left, int right)&quot;</span> &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> left + right;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">double</span> <span class="title">Add</span><span class="params">(<span class="type">double</span> left, <span class="type">double</span> right)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;double Add(double left, double right)&quot;</span> &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> left + right;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="built_in">Add</span>(<span class="number">10</span>, <span class="number">20</span>);</span><br><span class="line">   <span class="built_in">Add</span>(<span class="number">10.1</span>, <span class="number">20.2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="参数个数不同"><a href="#参数个数不同" class="headerlink" title="参数个数不同"></a>参数个数不同</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;f()&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">(<span class="type">int</span> a)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;f(int a)&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="built_in">f</span>();</span><br><span class="line">   <span class="built_in">f</span>(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="参数类型顺序不同"><a href="#参数类型顺序不同" class="headerlink" title="参数类型顺序不同"></a>参数类型顺序不同</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">(<span class="type">int</span> a, <span class="type">char</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   cout &lt;&lt; <span class="string">&quot;f(int a,char b)&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">(<span class="type">char</span> b, <span class="type">int</span> a)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   cout &lt;&lt; <span class="string">&quot;f(char b, int a)&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="built_in">f</span>(<span class="number">10</span>, <span class="string">&#x27;a&#x27;</span>);</span><br><span class="line">  <span class="built_in">f</span>(<span class="string">&#x27;a&#x27;</span>, <span class="number">10</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>C++支持函数重载的原理–<strong>名字修饰</strong></p>
+<p>为什么C++支持函数重载，而C语言不支持呢？</p>
+<p>因为C语言在链接时，直接用函数名去找地址，不允许同名函数。</p>
+<p>C++引入函数名修饰规则（由 各个编译器自己实现）。</p>
+<p>以Linux为例：</p>
+<p>在linux下，采用gcc编译完成后，函数名字的修饰不变。</p>
+<p>在linux下，采用g++编译完成后，函数名字的修饰发生改变，编译器将函数参数类型信息添加到修改后的名字中（g++的函数修饰后变成   _Z+函数长度 +函数名+类型首字母）。</p>
+<p>C++通过函数修饰规则来区分，只要参数不同，修饰出来的名字就不一样，就支持了重载。（如果两个函数函数名和参数是一样的，返回值不同是不构成重载的，因为调用时编译器没办法区分。）</p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p><strong>引用</strong>不是新定义一个变量，而是​<strong>给已存在变量取了一个别名</strong>​，编译器不会为引用变量开辟内存空 间，它和它引用的变量​<strong>共用同一块内存空间</strong>​。</p>
+<p>怎么取别名呢？祖师爷又复用了以前的一个符号：**&amp;**</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">TestRef</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="type">int</span>&amp; ra = a;        <span class="comment">//定义引用类型</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%p\n&quot;</span>, &amp;a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%p\n&quot;</span>, &amp;ra);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>ra是a的别名，也可以给别名取别名。（抓我鲁迅当然和你周树人有关系）</p>
+<p><strong>tips：引用类型必须和引用实体是同种类型的</strong></p>
+<h4 id="特点"><a href="#特点" class="headerlink" title="特点"></a><strong>特点</strong></h4><blockquote>
+<ol>
+<li>引用在定义时必须<strong>初始化</strong></li>
+<li>一个变量<strong>可以有多个引用</strong></li>
+<li>引用一旦引用一个实体，再不能引用其他实体</li>
+</ol>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">TestRef</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line">   <span class="comment">// int&amp; ra;   // 编译时出错</span></span><br><span class="line">   <span class="type">int</span>&amp; ra = a;</span><br><span class="line">   <span class="type">int</span>&amp; rra = a;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;%p %p %p\n&quot;</span>, &amp;a, &amp;ra, &amp;rra);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="常引用"><a href="#常引用" class="headerlink" title="常引用"></a><strong>常引用</strong></h4><p>三种情况都在这啦：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">TestConstRef</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">const</span> <span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="comment">//int&amp; ra = a;     // 编译出错，a为常量</span></span><br><span class="line">    <span class="type">const</span> <span class="type">int</span>&amp; ra = a;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// int&amp; b = 10;    // 编译出错，b为常量</span></span><br><span class="line">    <span class="type">const</span> <span class="type">int</span>&amp; b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="type">double</span> d = <span class="number">12.34</span>;</span><br><span class="line">    <span class="comment">//int&amp; rd = d;    // 编译出错，类型不同</span></span><br><span class="line">    <span class="type">const</span> <span class="type">int</span>&amp; rd = d;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>常引用的意思就是取别名，但是不期望修改原来的值（一种变相的对权限的缩小）</p>
+<p>临时变量具有常属性，不支持修改，所以这样必错：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> b = <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> &amp;c = a + b;</span><br></pre></td></tr></table></figure>
+
+<p>在这个阶段它发生的是创建临时变量再进行取别名：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">double</span> d = <span class="number">1.1</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span>&amp; ri = d;</span><br></pre></td></tr></table></figure>
+
+<p>为什么是创建临时变量呢？</p>
+<p>因为我们在学C的时候曾经见过这样一个东西：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> i = <span class="number">97</span>;</span><br><span class="line"><span class="type">char</span> ch = <span class="string">&#x27;a&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span> (i == ch)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;相等&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>i和ch进行比较，ch不做改动，创建一个临时变量进行类型提升后再做比较，是和临时对象比的</p>
+<p><strong>使用场景</strong></p>
+<p><strong>1.做参数</strong></p>
+<p>在C语言阶段，我们应该都写过这样一个函数：交换两数的值</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Swap</span><span class="params">(<span class="type">int</span>* a, <span class="type">int</span>* b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> tmp = *a;</span><br><span class="line">	*a = *b;</span><br><span class="line">	*b = tmp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> x = <span class="number">0</span>;</span><br><span class="line">	<span class="type">int</span> y = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d  %d\n&quot;</span>, x, y);</span><br><span class="line">	<span class="built_in">Swap</span>(&amp;x, &amp;y);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d  %d\n&quot;</span>, x, y);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>由于形参是实参的一份临时拷贝，对形参的修改不影响实参，所以我们想要实现交换两数，就必须进行传址调用。</p>
+<p>但是在C++引入了引用这个概念后，就会变得方便很多</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Swap</span><span class="params">(<span class="type">int</span>&amp; a, <span class="type">int</span>&amp; b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> tmp = a;</span><br><span class="line">	a = b;</span><br><span class="line">	b = tmp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> x = <span class="number">0</span>;</span><br><span class="line">	<span class="type">int</span> y = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d  %d\n&quot;</span>, x, y);</span><br><span class="line">	<span class="built_in">Swap</span>(x, y);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d  %d\n&quot;</span>, x, y);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在这里，&amp;a被看做是x的别名，&amp;b被看做是y的别名。</p>
+<p>指针和引用功能类似，近乎重叠，那么引用是否可以完全替代指针呢？</p>
+<p>都说C++是在C的基础上做出的完善，而C++的引用，是对指针使用比较复杂的场景进行的替换，让代码更简单易懂，但是不能完全替代指针。</p>
+<p>原因：<strong>引用定义后，不可改变指向</strong></p>
+<p>这也就​<strong>不能用引用代替指针完成链表、二叉树等的增加删除等操作</strong>​。</p>
+<p>那Java、Python有没有指针呢？</p>
+<p>并没有。</p>
+<p>那它们是怎么实现链表的呢？</p>
+<p>用引用。</p>
+<p>好一个以子之矛攻子之盾（bushi）！</p>
+<p>其实Java、Python等语言变量定义出来就是引用，并且可以改变指向（和C嘎嘎不一样哦，引用就是不能替代指针！！！指针就是坠吊的！！！）</p>
+<p>总结一下引用在做参数方面的杰出贡献：</p>
+<p>1.做输出型参数</p>
+<p>2.对象比较大，减少拷贝，提高效率</p>
+<p><strong>2.做返回值</strong></p>
+<p>请看这段代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> ret = <span class="built_in">func</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在这里函数的返回值是由寄存器带回的，而不是返回a（出作用域就销毁的临时变量）</p>
+<p>指针在使用的时候可能会出现野指针，那么引用有没有可能出现野引用呢？</p>
+<p>这就是：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span>&amp; <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> ret = <span class="built_in">func</span>();</span><br><span class="line">	cout &lt;&lt; ret &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>将a的别名返回了，访问已经还给操作系统的空间，造成了野引用。</p>
+<p>结果认为是随机值</p>
+<p>由于栈帧空间是可以重复使用的，所以：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span>&amp; <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span>&amp; <span class="title">fx</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> b = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">return</span> b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span>&amp; ret = <span class="built_in">func</span>();</span><br><span class="line">	cout &lt;&lt; ret &lt;&lt; endl;</span><br><span class="line">	<span class="built_in">fx</span>();</span><br><span class="line">	cout &lt;&lt; ret &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这段代码最终结果是</p>
+<p>感兴趣的话可以康康：<a target="_blank" rel="noopener" href="https://blog.csdn.net/chestnut_orenge/article/details/134173363?spm=1001.2014.3001.5501" title="函数栈帧的创建与销毁-CSDN博客">函数栈帧的创建与销毁-CSDN博客</a></p>
+<p>变量出了函数作用域生命周期结束要销毁（局部变量），不能用引用返回（薛定谔的猫）</p>
+<p>若是全局变量、静态变量、堆上的空间等则可以用引用返回。</p>
+<p>tips：</p>
+<p>以值作为参数或者返回值类型，在传参和返回期间，函数不会直接传递实参或者将变量本身直接返回，而是传递实参或者返回变量的一份临时的拷贝，因此用值作为参数或者返回值类型，效率是非常低下的，尤其是当参数或者返回值类型非常大时，效率就更低。</p>
+<p>传值和指针在作为传参以及返回值类型上效率相差很大。</p>
+<h4 id="引用和指针的区别"><a href="#引用和指针的区别" class="headerlink" title="引用和指针的区别"></a>引用和指针的区别</h4><blockquote>
+<ol>
+<li>引用概念上定义一个变量的别名，指针存储一个变量地址</li>
+<li>引用在定义时必须初始化，指针没有要求</li>
+<li>引用在初始化时引用一个实体后，就不能再引用其他实体，而指针可以在任何时候指向任何一个同类型实体</li>
+<li>没有NULL引用，但有NULL指针</li>
+<li>在sizeof中含义不同：引用结果为引用类型的大小，但指针始终是地址空间所占字节个数(32 位平台下占4个字节)</li>
+<li>引用自加即引用的实体增加1，指针自加即指针向后偏移一个类型的大小</li>
+<li>有多级指针，但是没有多级引用</li>
+<li>访问实体方式不同，指针需要显式解引用，引用编译器自己处理</li>
+<li>引用比指针使用起来更安全</li>
+</ol>
+</blockquote>
+<p>指针肯定要开辟空间，那引用需不需要开辟空间呢？</p>
+<p>引用从语法上不需要开辟空间，但引用的底层实现开辟了空间（引用底层是用指针实现的），语法含义和底层实现背离</p>
+<p>明确一点：在汇编层面上，没有引用，都是指针，引用编译后也转换成指针了</p>
+<h3 id="内联函数"><a href="#内联函数" class="headerlink" title="内联函数"></a>内联函数</h3><p>在C语言中，使用函数会有一定开销（创建函数栈帧），如果需要频繁调用一个函数那可能造成的开销就过大，最终导致栈溢出或者怎么怎么，那C是如何解决这个问题的呢？</p>
+<h4 id="使用宏"><a href="#使用宏" class="headerlink" title="使用宏"></a>使用宏</h4><p>复习一下宏：宏在<strong>预处理</strong>阶段进行​<strong>替换</strong>​，​<strong>不是函数</strong>​，​<strong>没有分号</strong>​，<strong>括号控制优先级</strong></p>
+<p>例：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> ADD(a,b) ((a)+(b))</span></span><br></pre></td></tr></table></figure>
+
+<p>在这个宏定义中，为何要加里面的括号？</p>
+<p>因为a或者b可能是表达式，不加可能会由于运算符优先级出错</p>
+<blockquote>
+<p>宏优点：</p>
+<p>1.增强代码的复用性</p>
+<p>2.提高性能。</p>
+<p>宏缺点：</p>
+<p>1.语法复杂、坑多、不容易控制</p>
+<p>2.不能调试</p>
+<p>3.没有类型安全的检查</p>
+</blockquote>
+<p>基于这些呢，祖师爷就想着做出一些创作规避这些缺点，内联函数应运而生：</p>
+<p>以inline修饰的函数叫做内联函数，编译时C++编译器会在调用内联函数的地方展开，没有函数调 用建立栈帧的开销，内联函数提升程序运行的效率。</p>
+<p>inline是一种以空间换时间的做法，如果编译器将函数当成内联函数处理，在编译阶段，会用函数体替换函数调用，在debug版本中内联函数默认是不展开的，在release模式下会展开。若想要在debug模式下展开内联函数，则需要对编译器进行设置</p>
+<p>内联也不是完美的，也有缺陷，当函数过大就不适合定义成内联了，会导致代码膨胀，程序变大。</p>
+<p>程序变大就变大呗，有啥坏处呢？</p>
+<p>举个例子：</p>
+<p>墨墨喜欢打王者，她苹果和安卓都有号，双开的她在更新游戏时发现了小小的不同，诶嘿，苹果的这个居然更新的那么快，明明都是一样的内容呀，墨墨开始巴拉巴拉她家网线，但是后面发觉不对劲，网肯定一样啊，一看占用内存，嚯！ios下更新的内容五百多兆，安卓下更新的快到1G了，根网速没关系，只是ios下的那个版本小一些，所以变大肯定不好啦</p>
+<p><strong>缺陷：可能会使目标文件变大</strong></p>
+<p><strong>优势：少了调用开销，提高程序运行效率</strong></p>
+<p>inline对于编译器而言只是一个建议，不同编译器关于inline实现机制可能不同，一般建议：将函数规模较小(即函数不是很长，具体没有准确的说法，取决于编译器内部实现)、不是递归、且频繁调用的函数采用inline修饰，否则编译器会忽略inline特性</p>
+<p>内联不建议声明和定义分离，分离会导致链接错误，inline被展开，就没有函数地址了，链接就会找不到（嵌套以后，舍去一个预处理阶段，不展开会出问题）</p>
+<p>那再顺便墨迹一嘴，为什么要声明和定义分离：</p>
+<p>链接错误可能就出现：找不到定义（这是由于函数在使用前没看到声明），但其实还有一种错误：找到一个或多个多重定义的符号，这是咋回事捏？</p>
+<p>就比如，你在某个头文件下定义了一个函数，然后有两个源文件都包含了这个头文件，在展开的时候就会生成两个.o文件，从而发生重定义，不构成函数重载，编译器认为你定义的是同名函数</p>
+<p>至于这个是干嘛的呢？</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br></pre></td></tr></table></figure>
+
+<p>解决头文件包含重复，防止头文件重复展开的！</p>
+<p>那假如，我就是想要声明和定义在一起，有没有解决办法捏？</p>
+<p>当然有！</p>
+<p>用static！！！</p>
+<p>还记得static修饰函数怎么样么？</p>
+<p>会改变函数的链接属性，只在当前文件可用</p>
+<p>还有别的方式：</p>
+<p>就是内联：内联不支持声明和定义分离</p>
+<p>地址加载到符号表是为了方便调用，而内联函数的底层逻辑是展开，不涉及调用</p>
+<p>所以总结一下使用方法就是：</p>
+<blockquote>
+<p><strong>小函数用内联</strong></p>
+<p><strong>大函数用静态</strong></p>
+</blockquote>
+<h3 id="auto关键字"><a href="#auto关键字" class="headerlink" title="auto关键字"></a>auto关键字</h3><h4 id="使用-1"><a href="#使用-1" class="headerlink" title="使用"></a>使用</h4><p>平时我们定义变量这样定义：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> j = i;</span><br></pre></td></tr></table></figure>
+
+<p>不过也可以这样定义：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> j = i;</span><br><span class="line"><span class="keyword">auto</span> m = j;</span><br></pre></td></tr></table></figure>
+
+<p>auto的作用是：自动类型识别！ （和引用类似，必须初始化，根据右面推导左面），就像是类型声明时的“占位符”</p>
+<p>那它设计出来有什么价值呢？</p>
+<p>请看这个：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">void</span>(*pf)(<span class="type">int</span>, <span class="type">int</span>) = func;</span><br></pre></td></tr></table></figure>
+
+<p>这是一种函数指针</p>
+<p>玩波花的，可以这样：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">auto</span> pf = func;</span><br></pre></td></tr></table></figure>
+
+<p>让它自己去识别嘛！</p>
+<p>在用用auto声明指针类型时，用auto和auto*没有任何区别，但是用auto声明引用类型时则必须加&amp;</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">auto</span> a = &amp;x;</span><br><span class="line"><span class="keyword">auto</span>* b = &amp;x;</span><br><span class="line"><span class="keyword">auto</span>&amp; c = x;</span><br></pre></td></tr></table></figure>
+
+<p>在同一行定义多个变量时，这些变量必须是相同的类型，否则编译器将会报错（编译器实际只对第一个类型进行推导，然后用推导出来的类型定义其他变量）</p>
+<p>tips：在C嘎嘎中，可以这样打印类型：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span>(*pf1)(<span class="type">int</span>, <span class="type">int</span>) = func;</span><br><span class="line"><span class="keyword">auto</span> pf2 = func;</span><br><span class="line">cout &lt;&lt; <span class="built_in">typeid</span>(pf1).<span class="built_in">name</span>() &lt;&lt; endl;</span><br><span class="line">cout &lt;&lt; <span class="built_in">typeid</span>(pf2).<span class="built_in">name</span>() &lt;&lt; endl;</span><br></pre></td></tr></table></figure>
+
+<p>结果：</p>
+<p>auto不能做参数，支持做返回值，不能直接用来声明数组</p>
+<h4 id="基于范围的for循环"><a href="#基于范围的for循环" class="headerlink" title="基于范围的for循环"></a>基于范围的for循环</h4><p>在平常我们一般怎么遍历数组？</p>
+<p>这样对吧？</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> array[] = &#123; <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="built_in">sizeof</span>(array) / <span class="built_in">sizeof</span>(array[<span class="number">0</span>]); ++i)</span><br><span class="line">     array[i] *= <span class="number">2</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span>* p = array; p &lt; array + <span class="built_in">sizeof</span>(array)/ <span class="built_in">sizeof</span>(array[<span class="number">0</span>]); ++p)</span><br><span class="line">     cout &lt;&lt; *p &lt;&lt; endl;</span><br></pre></td></tr></table></figure>
+
+<p>但是！对于一个有范围的集合而言，由程序员来说明循环的范围是多余的，有时候还会容易犯错，因此C++11中引入了基于范围的for循环。</p>
+<p>在基于范围的for循环中，循环后的括号由冒号“ ：”分为两部分：第一部分是范围内用于迭代的变量，第二部分表示被迭代的范围：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> array[] = &#123; <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> e : array)</span><br><span class="line">     e *= <span class="number">2</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> e : array)</span><br><span class="line">     cout &lt;&lt; e &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br></pre></td></tr></table></figure>
+
+<p>依次取数组中的值赋值给e，自动迭代，自动判断结束，这时的e相当于数组中值的拷贝（就跟函数形参实参一样，不改变实际值，加个引用就好了）</p>
+<p>加引用后：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> array[] = &#123; <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span>&amp; e : array)</span><br><span class="line">     e *= <span class="number">2</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> e : array)</span><br><span class="line">     cout &lt;&lt; e &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br></pre></td></tr></table></figure>
+
+<p>tips：和普通循环类似，可以用continue来结束本次循环，也可以用break来跳出整个循环</p>
+<h3 id="指针空值"><a href="#指针空值" class="headerlink" title="指针空值"></a>指针空值</h3><p>在C中我们怎么表示空指针？这样对吧？</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>* p1 = <span class="literal">NULL</span>;</span><br></pre></td></tr></table></figure>
+
+<p>那又有什么问题在导致需要在C++中做出改良呢？</p>
+<p>请看：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">(<span class="type">int</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> cout&lt;&lt;<span class="string">&quot;f(int)&quot;</span>&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">(<span class="type">int</span>*)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> cout&lt;&lt;<span class="string">&quot;f(int*)&quot;</span>&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> <span class="built_in">f</span>(<span class="number">0</span>);</span><br><span class="line"> <span class="built_in">f</span>(<span class="literal">NULL</span>);</span><br><span class="line"> <span class="built_in">f</span>((<span class="type">int</span>*)<span class="literal">NULL</span>);</span><br><span class="line"> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这个程序的本意是想通过NULL调用指针版本的f(int*)函数，但是别忘了</p>
+<p>NULL是个…宏！宏啊！！宏常量！！！</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">ifndef</span> NULL</span></span><br><span class="line"><span class="meta">#<span class="keyword">ifdef</span> __cplusplus</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> NULL   0</span></span><br><span class="line"><span class="meta">#<span class="keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> NULL   ((void *)0)</span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+
+<p>值是0的宏常量！！和我们这次调用的初衷相悖了！</p>
+<p>在C++98中，字面常量0既可以是一个整形数字，也可以是无类型的指针(void*)常量，但是编译器 默认情况下将其看成是一个整形常量，如果要将其按照指针方式来使用，必须对其进行强转(void *)0</p>
+<p>然后呢，就觉得这样使用不太方便，所以在C++11中引入了一个关键字：<strong>nullptr</strong></p>
+<p>所以以后初始化指针就可以用nullptr了</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>* p = <span class="literal">nullptr</span>;</span><br></pre></td></tr></table></figure>
+
+<p>为了挺高代码健壮性，以后就都用nullptr啦</p>
+<p>​</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/congyu.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/congyu.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">贩卖纯净水</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/')">C++++到厌倦</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=C++++到厌倦&amp;url=http://example.com/2025/11/12/c++++%E5%88%B0%E5%8E%8C%E5%80%A6/&amp;pic=https://pic1.imgdb.cn/item/691c4afd3203f7be00137cb5.jpg" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">贩卖纯净水🛌</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/C-%E8%AF%AD%E6%B3%95/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>C++语法<span class="tagsPageCount">4</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://pic1.imgdb.cn/item/692fe0854c455cbabc95a9d2.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2025/11/19/%E9%93%BE%E8%A1%A8%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8F%8C%E5%90%91%E5%A5%94%E8%B5%B4/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/691c4c333203f7be00138497.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">链表与递归的双向奔赴</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/2025/11/28/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A11/" title="类和对象三部曲（one）"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/6929576d7f8e1c737822d9c1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2025-11-28</div><div class="title">类和对象三部曲（one）</div></div></a></div><div><a href="/2025/11/28/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A12/" title="类和对象三部曲（two）"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/692955187f8e1c737822ba7f.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2025-11-28</div><div class="title">类和对象三部曲（two）</div></div></a></div><div><a href="/2025/11/28/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A13/" title="类和对象三部曲（three）"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/6929596cb4e23f08080ab0f9.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2025-11-28</div><div class="title">类和对象三部曲（three）</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/congyu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" alt="status"/></div></div><div class="author-info__description"></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">贩卖纯净水</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/justice049" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/1975290515?spm_id_from=333.1007.0.0" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content">满堂花醉三千客，一剑霜寒十四州。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%9F"><span class="toc-number">1.</span> <span class="toc-text">域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#namespace"><span class="toc-number">2.</span> <span class="toc-text">namespace</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-number">2.1.</span> <span class="toc-text">命名空间的概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">2.2.</span> <span class="toc-text">命名空间的使用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hello-world"><span class="toc-number">3.</span> <span class="toc-text">hello world</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%BA%E7%9C%81%E5%8F%82%E6%95%B0%EF%BC%88%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">缺省参数（默认参数）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8"><span class="toc-number">4.1.</span> <span class="toc-text">使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">4.2.</span> <span class="toc-text">分类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%85%A8%E7%BC%BA%E7%9C%81%E5%8F%82%E6%95%B0"><span class="toc-number">4.2.1.</span> <span class="toc-text">全缺省参数</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8D%8A%E7%BC%BA%E7%9C%81%E5%8F%82%E6%95%B0"><span class="toc-number">4.2.2.</span> <span class="toc-text">半缺省参数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD"><span class="toc-number">5.</span> <span class="toc-text">函数重载</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E4%B8%8D%E5%90%8C"><span class="toc-number">5.1.</span> <span class="toc-text">参数类型不同</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E4%B8%AA%E6%95%B0%E4%B8%8D%E5%90%8C"><span class="toc-number">5.2.</span> <span class="toc-text">参数个数不同</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E9%A1%BA%E5%BA%8F%E4%B8%8D%E5%90%8C"><span class="toc-number">5.3.</span> <span class="toc-text">参数类型顺序不同</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8"><span class="toc-number">6.</span> <span class="toc-text">引用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A6%82%E5%BF%B5"><span class="toc-number">6.1.</span> <span class="toc-text">概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%89%B9%E7%82%B9"><span class="toc-number">6.2.</span> <span class="toc-text">特点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E5%BC%95%E7%94%A8"><span class="toc-number">6.3.</span> <span class="toc-text">常引用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E5%92%8C%E6%8C%87%E9%92%88%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">6.4.</span> <span class="toc-text">引用和指针的区别</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%85%E8%81%94%E5%87%BD%E6%95%B0"><span class="toc-number">7.</span> <span class="toc-text">内联函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E5%AE%8F"><span class="toc-number">7.1.</span> <span class="toc-text">使用宏</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#auto%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">8.</span> <span class="toc-text">auto关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-1"><span class="toc-number">8.1.</span> <span class="toc-text">使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8E%E8%8C%83%E5%9B%B4%E7%9A%84for%E5%BE%AA%E7%8E%AF"><span class="toc-number">8.2.</span> <span class="toc-text">基于范围的for循环</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E9%92%88%E7%A9%BA%E5%80%BC"><span class="toc-number">9.</span> <span class="toc-text">指针空值</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/12/03/Symbol%E7%B1%BB%E5%9E%8B/" title="Symbol类型"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/692fe0854c455cbabc95a9d2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Symbol类型"/></a><div class="content"><a class="title" href="/2025/12/03/Symbol%E7%B1%BB%E5%9E%8B/" title="Symbol类型">Symbol类型</a><time datetime="2025-12-03T06:58:46.975Z" title="发表于 2025-12-03 14:58:46">2025-12-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/03/JS%E6%95%B0%E7%BB%84%E6%8C%96%E6%8E%98/" title="JS数组挖掘"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/692fde3b4c455cbabc958b53.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JS数组挖掘"/></a><div class="content"><a class="title" href="/2025/12/03/JS%E6%95%B0%E7%BB%84%E6%8C%96%E6%8E%98/" title="JS数组挖掘">JS数组挖掘</a><time datetime="2025-12-03T06:52:08.647Z" title="发表于 2025-12-03 14:52:08">2025-12-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/03/JS%E8%BF%90%E7%AE%97%E7%AC%A6%E5%92%8C%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/" title="JS运算符和流程控制"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/692fdd8e4c455cbabc958ac1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JS运算符和流程控制"/></a><div class="content"><a class="title" href="/2025/12/03/JS%E8%BF%90%E7%AE%97%E7%AC%A6%E5%92%8C%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/" title="JS运算符和流程控制">JS运算符和流程控制</a><time datetime="2025-12-03T06:47:44.254Z" title="发表于 2025-12-03 14:47:44">2025-12-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/03/JS%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82/" title="JS使用细节"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/692fdc384c455cbabc9589e3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JS使用细节"/></a><div class="content"><a class="title" href="/2025/12/03/JS%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82/" title="JS使用细节">JS使用细节</a><time datetime="2025-12-03T06:35:48.121Z" title="发表于 2025-12-03 14:35:48">2025-12-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/03/JS%E5%80%BC%E7%B1%BB%E5%9E%8B%E4%BD%BF%E7%94%A8/" title="JS值类型使用"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/692fd7f74c455cbabc95862b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JS值类型使用"/></a><div class="content"><a class="title" href="/2025/12/03/JS%E5%80%BC%E7%B1%BB%E5%9E%8B%E4%BD%BF%E7%94%A8/" title="JS值类型使用">JS值类型使用</a><time datetime="2025-12-03T06:19:37.926Z" title="发表于 2025-12-03 14:19:37">2025-12-03</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="workboard"><img class="workSituationImg boardsign" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/💧贩卖纯净水-🐟摸鱼中ing%20💫-87ceeb?style=flat&amp;logo=heart&amp;logoColor=white&amp;labelColor=e6f7ff&amp;color=87cefa&amp;border=2px_solid_4682b4" alt="距离月入25k也就还差一个大佬带我~" title="距离月入25k也就还差一个大佬带我~"/><div id="runtimeTextTip"></div></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a class="github-badge" target="_blank" href="https://hexo.anheyu.com/" style="margin-inline:5px" data-title="本站使用AnZhiYu主题" title="本站使用AnZhiYu主题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg" alt="本站使用AnZhiYu主题"/></a><a class="github-badge" target="_blank" href="https://www.dogecloud.com/" style="margin-inline:5px" data-title="本站使用多吉云为静态资源提供CDN加速" title="本站使用多吉云为静态资源提供CDN加速"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg" alt="本站使用多吉云为静态资源提供CDN加速"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg" alt="本站项目由Github托管"/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2025 By <a class="footer-bar-link" href="/" title="贩卖纯净水" target="_blank">贩卖纯净水</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">42</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">5</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.csdn.net/chestnut_orenge" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/congyu.png" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/justice049" title="Github"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.imgdb.cn/item/691d91cf3203f7be0018031d.jpg" alt="Github"/><span class="back-menu-item-text">Github</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=9612066653&amp;server=tencent"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-envelope"></use></svg><span> 留言板</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C-%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/" style="font-size: 0.88rem;">C++内存分配<sup>1</sup></a><a href="/tags/C-%E8%AF%AD%E6%B3%95/" style="font-size: 0.88rem;">C++语法<sup>4</sup></a><a href="/tags/CSS/" style="font-size: 0.88rem;">CSS<sup>8</sup></a><a href="/tags/HTML/" style="font-size: 0.88rem;">HTML<sup>2</sup></a><a href="/tags/JS/" style="font-size: 0.88rem;">JS<sup>14</sup></a><a href="/tags/Linux%E6%8C%87%E4%BB%A4/" style="font-size: 0.88rem;">Linux指令<sup>1</sup></a><a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 0.88rem;">二叉树<sup>2</sup></a><a href="/tags/%E5%A0%86/" style="font-size: 0.88rem;">堆<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/" style="font-size: 0.88rem;">数据存储<sup>1</sup></a><a href="/tags/%E6%97%B6%E7%A9%BA%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 0.88rem;">时空复杂度<sup>1</sup></a><a href="/tags/%E6%A0%88/" style="font-size: 0.88rem;">栈<sup>2</sup></a><a href="/tags/%E9%93%BE%E8%A1%A8/" style="font-size: 0.88rem;">链表<sup>3</sup></a><a href="/tags/%E9%98%9F%E5%88%97/" style="font-size: 0.88rem;">队列<sup>1</sup></a><a href="/tags/%E9%A1%BA%E5%BA%8F%E8%A1%A8/" style="font-size: 0.88rem;">顺序表<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/9612066653&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script async src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("04/01/2021 00:00:00"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "https://img.shields.io/badge/💧贩卖纯净水-🏖️下班去玩耍%20😝-ffb6c1?style=flat&amp;logo=heart&amp;logoColor=white&amp;labelColor=fff0f5&amp;color=ffb6c1&amp;border=2px_solid_ff69b4";
+        img.title = "下班了就该开开心心的玩耍，嘿嘿~";
+        img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    }
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><div class="js-pjax"><script>(() => {
+  const initValine = () => {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'Tv1tQeDzMHFGtyxLwEIKzU8N-gzGzoHsz',
+      appKey: 'EpD8w2JukK76zPmKRM0Va8fC',
+      avatar: 'monsterid',
+      avatarCDN: 'https://cravatar.cn/avatar/',
+      serverURLs: 'https://tv1tqedz.lc-cn-n1-shared.com',
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/',
+      emojiMaps: {"tv_doge":"1f415.svg","tv_亲亲":"1f48b.svg","tv_偷笑":"1f604.svg","tv_再见":"1f44b.svg","tv_冷漠":"1f610.svg","tv_发怒":"1f624.svg","tv_发财":"1f4b0.svg","tv_可爱":"1f60a.svg","tv_吐血":"1f4a5.svg","tv_呆":"1f635.svg","tv_呕吐":"1f92e.svg","tv_困":"1f634.svg","tv_坏笑":"1f608.svg","tv_大佬":"1f60e.svg","tv_大哭":"1f62d.svg","tv_委屈":"1f625.svg","tv_害羞":"1f633.svg","tv_尴尬":"1f605.svg","tv_微笑":"1f603.svg","tv_思考":"1f914.svg","tv_惊吓":"1f631.svg","tv_打脸":"1f928.svg","tv_抓狂":"1f616.svg","tv_挖鼻":"1f443.svg","tv_捂脸":"1f926.svg","tv_捂眼":"1f440.svg","tv_擦汗":"1f613.svg","tv_无语":"1f612.svg","tv_晕":"1f974.svg","tv_流汗":"1f613.svg","tv_流泪":"1f622.svg","tv_流鼻血":"1f912.svg","tv_点赞":"1f44d.svg","tv_生气":"1f620.svg","tv_生病":"1f912.svg","tv_疑问":"2753.svg","tv_睡着":"1f634.svg","tv_笑哭":"1f602.svg","tv_脸红":"1f633.svg","tv_耶":"270c.svg"},
+      enableQQ: true,
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  const loadValine = async () => {
+    if (typeof Valine === 'function') initValine()
+    else {
+      const valineSrc = 'https://cdn.cbd.int/valine@1.5.1/dist/Valine.min.js'
+      await getScript(valineSrc)
+      initValine()
+    }
+  }
+
+  // Replace common Gravatar hosts with Cravatar after Valine renders avatars
+  const replaceAvatarHostToCravatar = () => {
+    try {
+      const root = document.getElementById('vcomment') || document.body
+      const imgs = root.querySelectorAll('img')
+      imgs.forEach(img => {
+        if (!img.src) return
+        try {
+          const url = new URL(img.src, location.href)
+          // replace known gravatar hosts to cravatar
+          if (/gravatar|gravatar\.loli|gravatar\.cn|secure\.gravatar|www\.gravatar/.test(url.hostname)) {
+            url.hostname = 'cravatar.cn'
+            // ensure path format /avatar/<hash>
+            if (!/^\/avatar\//.test(url.pathname)) {
+              // if path contains /avatar, preserve, otherwise keep pathname
+            }
+            img.src = url.toString()
+          }
+        } catch (e) {
+          // ignore per-image errors
+        }
+      })
+    } catch (e) {
+      // nothing
+    }
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+  // run replacement after initial load and on PJAX navigations
+  window.addEventListener('load', () => setTimeout(replaceAvatarHostToCravatar, 600))
+  document.addEventListener('pjax:complete', () => setTimeout(replaceAvatarHostToCravatar, 400))
+  // Emoji load fallback: if an emoji image from emojiCDN fails, try PNG fallback on Twemoji CDN
+  const emojiCDN = 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/'
+  const emojiFallbackBase = 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/'
+  window.addEventListener('error', function (ev) {
+    const t = ev.target
+    if (!t || t.tagName !== 'IMG') return
+    try {
+      const src = t.getAttribute('src') || ''
+      if (!src) return
+      // only handle emoji CDNs configured in theme
+      if (emojiCDN && src.indexOf(emojiCDN) === 0) {
+        // replace .svg -> .png fallback
+        const name = src.split('/').pop()
+        if (!name) return
+        const pngName = name.replace(/\.svg$/i, '.png')
+        const fallback = emojiFallbackBase + pngName
+        if (t.src !== fallback) t.src = fallback
+      }
+    } catch (e) {
+      // ignore
+    }
+  }, true)
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script src="https://cdn.cbd.int/blueimp-md5@2.19.0/js/md5.min.js"></script><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getIcon = (icon, mail) => {
+    if (icon) return icon
+    let defaultIcon = '?d=monsterid'
+    let iconUrl = `https://cravatar.cn/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
+    return iconUrl
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const getComment = () => {
+    const serverURL = 'https://tv1tqedz.lc-cn-n1-shared.com'
+
+    var settings = {
+      "method": "GET",
+      "headers": {
+        "X-LC-Id": 'Tv1tQeDzMHFGtyxLwEIKzU8N-gzGzoHsz',
+        "X-LC-Key": 'EpD8w2JukK76zPmKRM0Va8fC',
+        "Content-Type": "application/json"
+      },
+    }
+
+    fetch(`${serverURL}/1.1/classes/Comment?limit=6&order=-createdAt`,settings)
+      .then(response => response.json())
+      .then(data => {
+        const valineArray = data.results.map(function (e) {
+          return {
+            'avatar': getIcon(e.QQAvatar, e.mail),
+            'content': changeContent(e.comment),
+            'nick': e.nick,
+            'url': e.url + '#' + e.objectId,
+            'date': e.updatedAt,
+          }
+        })
+        saveToLocal.set('valine-newest-comments', JSON.stringify(valineArray), 10/(60*24))
+        generateHtml(valineArray)
+      }).catch(e => {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      }) 
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('valine-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://cdn.cbd.int/qrcodejs@1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script id="click-show-text" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/click-show-text.min.js" data-mobile="true" data-text="😭,🐱,💧,🥑,🐣,🤓,🐟,🍊" data-fontsize="15px" data-random="false" async="async"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/movies/"]):not([href="/books/"]):not([href="/games/"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":150,"height":300,"hOffset":-15,"vOffset":-15},"mobile":{"show":true},"react":{"opacity":1},"log":false});</script></body></html>
